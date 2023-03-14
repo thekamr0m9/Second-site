@@ -1,23 +1,67 @@
-@media (max-width: 1605px) {
+@media (max-width: 1024px) {
+    .fashion__cards{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .product__cards{
+        justify-content: center;
+        gap: 20px;
+    }
 }
-@media (max-width: 1440px) {}
-@media (max-width: 1320px) {}
-@media (max-width: 1290px) {}
-@media (max-width: 1199px) {}
-@media (max-width: 1140px) {}
-@media (max-width: 1024px) {}
-@media (max-width: 992px) {}
-@media (max-width: 850px) {}
-@media (max-width: 768px) {}
-@media (max-width: 736px) {}
-@media (max-width: 734px) {}
-@media (max-width: 686px) {}
-@media (max-width: 636px) {}
-@media (max-width: 576px) {}
-@media (max-width: 480px) {}
-@media (max-width: 460px) {}
-@media (max-width: 414px) {}
-@media (max-width: 412px) {}
-@media (max-width: 375px) {}
-@media (max-width: 360px) {}
-@media (max-width: 320px) {}
+@media (max-width: 880px) {
+    .header__nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__logo{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 713px) {
+    .header__list{
+        padding: 10px;
+    }
+
+    .footer__card-title{
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .header__content-title{
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 621px) {
+    .footer__cards{
+        flex-wrap:wrap ;
+        row-gap: 60px;
+    }
+}
+@media (max-width: 480px) {
+    .footer__cards{
+        
+        justify-content: center;
+    }
+}
+@media (max-width: 515px) {
+    .header__list{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+
+}
+@media (max-width: 375px) {
+    .fashion__title-title{
+        font-size: 36px;
+    }
+}
+
